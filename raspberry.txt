@@ -1,0 +1,27 @@
+Problem - How to copy minibian.img to sd
+Solution - Find which dev the sd is with dmesg and copy the img with dd 
+
+Problem - Get static ip
+Solution - On linux machine: /etc/network/interfaces
+iface eth0 inet staticaddress 192.168.3.xx
+netmask 255.255.255.0
+gateaway 192.168.3.1
+
+
+Problem: when ssh "no route to host", raspberry not on the netwrok
+Solution: had to restart raspberry
+
+Problem: No internet on raspberry
+Solution: Add google nameserver on resolv.conf
+
+Problem: No space on rasp
+Solution: install raspi-config for more space
+
+Problem: Cannot install raspi-config
+Solution: Use gparted on a linux machine to resize
+
+Problem: ImportError: No module named RPi.GPIO" when running checkmail.py
+Solution: "pip install RPi.GPIO" and "apt-get install python-dev"
+
+Problem: When running checkmail.py -> AttributeError: 'module' object has no attribute 'SSLContext'
+Solution: ???

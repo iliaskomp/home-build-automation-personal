@@ -1,0 +1,32 @@
+Scenarios=====================
+Entertainment - Controlling stereo/radio/music (volume, on/off) through internet
+Remote/Public Access
+Controlling lighting in a room
+Remote cars - wireless webcams
+
+Smart Building - Smart City
+Security - open door scanning body
+Control office/room environment/decoration/lighting - configurability of rooms, room adapts to specific requirements
+Intelligent Management - Make things work together across domains
+Indoor personal navigation - lighting/navigation system
+Energy management, smart grids, energy storage, consumption optimization
+Emergency systems - evacuation scenarios - lights, sound, routes, detect flows of people and seperate them
+Transportation/Routes user/cargos faster dynamic group management
+BYOD - integrate wearable devices to the specific domain
+
+
+Technologies=====================
+
+Internet
+Wireless
+Holograms, controlling options - not feasible yet
+Smart lighting - feasible
+Automated parking - feasible to an extend
+Body scanning - not feasible as a body, somewhat feasible with hands/faces 
+Access control
+People flow detection - sensors detection - feasible
+Mobile devices
+Smart elevators
+Central point of control of automation
+Intelligent Energy Management System, smart grids, energy storage, consumption optimization 
+

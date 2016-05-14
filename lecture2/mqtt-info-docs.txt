@@ -1,0 +1,23 @@
+- mqtt tutorial/getting started/info
+
+http://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt
+http://www.hivemq.com/blog/mqtt-essentials-part2-publish-subscribe
+http://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment
+
+- mqtt documentation
+
+https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt-v3.1.1.html
+
+- examples
+
+https://sakshambhatla.wordpress.com/2014/08/11/simple-mqtt-broker-and-client-in-python/
+http://www.hivemq.com/blog/mqtt-client-library-paho-python
+https://pypi.python.org/pypi/paho-mqtt
+http://public.mains.io/tutorials/switch-led-over-internet-with-raspberry-pi.html
+
+- Tested mqtt successfully in class
+
+To subscribe: mosquitto_sub -h 10.28.2.32 -t mqtt_test
+To publish: mosquitto_pub -h 10.28.2.32 -t mqtt_test -m "Message"
+
+- mqtt eclipse: http://www.eclipse.org/paho/

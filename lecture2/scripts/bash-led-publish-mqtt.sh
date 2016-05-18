@@ -1,4 +1,3 @@
-
 #!/bin/bash    
 
 led_status=$1

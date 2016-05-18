@@ -1,3 +1,5 @@
+Links/Tutorials I used for mqtt in previous lecture:
+
 - mqtt tutorial/getting started/info
 
 http://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt
@@ -21,3 +23,6 @@ To subscribe: mosquitto_sub -h 10.28.2.32 -t mqtt_test
 To publish: mosquitto_pub -h 10.28.2.32 -t mqtt_test -m "Message"
 
 - mqtt eclipse: http://www.eclipse.org/paho/
+
+
+Mostly did reading and after a few modifications the code worked

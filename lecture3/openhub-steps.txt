@@ -1,0 +1,33 @@
+- Installed java on raspberry
+
+- wget openhub file
+
+Links:
+
+http://www.openhab.org/getting-started/
+https://mcuoneclipse.com/2015/12/23/installing-openhab-home-automation-on-raspberry-pi/
+https://mcuoneclipse.com/2015/12/24/blinky-led-with-openhab-on-raspberry-pi/
+http://www.instructables.com/id/OpenHAB-on-Raspberry-Pi/
+
+LED example
+
+https://mcuoneclipse.com/2015/12/24/blinky-led-with-openhab-on-raspberry-pi/
+
+- I followed the example and the led was working
+- PROBLEM: GUI was reverse of the LED state (when I was turning on the LED on the GUI it turned off, and vice versa)
+  SOLUTION: Probably some kind of bug, switched to another GPIO and worked as expected
+
+- Need to group leds so all of them turn on and off 
+
+https://github.com/openhab/openhab/wiki/Taking-Rules-to-New-Heights
+
+
+
+- Added one other led, now I need to make the button work.
+
+Links:
+http://blog.initialstate.com/raspberry-pi-pressing-buttons-light-leds/
+
+PROBLEM: doesn't change values with gpio command when pressing
+SOLUTION: changed button gpio and now it randomly works
+

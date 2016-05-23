@@ -65,28 +65,28 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button lock = (Button)findViewById(R.id.lockButton);
-        lock.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0) {
-                TextView resultText = (TextView)findViewById(R.id.resultTextView);
-                String topic = "SmartLock/#";
-                String payload = "LOCK";
-                MQTTUtils.pub(topic, payload);
-                resultText.setText("The door is now locked.");
-            }
-        });
+//        lock.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View arg0) {
+//                TextView resultText = (TextView)findViewById(R.id.resultTextView);
+//                String topic = "SmartLock";
+//                String payload = "LOCK";
+//                MQTTUtils.pub(topic, payload);
+//                resultText.setText("The door is now locked.");
+//            }
+//        });
 
         Button unlock = (Button)findViewById(R.id.unlockButton);
-        unlock.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0) {
-                TextView resultText = (TextView)findViewById(R.id.resultTextView);
-                String topic = "SmartLock/#";
-                String payload = "UNLOCK";
-                MQTTUtils.pub(topic, payload);
-                resultText.setText("The door is now unlocked.");
-            }
-        });
+//        unlock.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View arg0) {
+//                TextView resultText = (TextView)findViewById(R.id.resultTextView);
+//                String topic = "SmartLock";
+//                String payload = "UNLOCK";
+//                MQTTUtils.pub(topic, payload);
+//                resultText.setText("The door is now unlocked.");
+//            }
+//        });
     }
 
     public void getToken(View view){
@@ -171,11 +171,16 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject jsonResponse = new JSONObject(response);
                     System.out.println("response : "+ jsonResponse);
                     int Messagecode = Integer.parseInt(jsonResponse.optString("MessageCode"));
+                    TextView resultText = (TextView)findViewById(R.id.resultTextView);
                     if(Messagecode==200){
-                        //do open lock here
+                        String topic = "SmartLock";
+                        String payload = "LOCK";
+                        MQTTUtils.pub(topic, payload);
+                        resultText.setText("The door is now locked.");
                         System.out.println("send 1");
                     }else{
                         //failed
+                        resultText.setText("You have no access");
                         System.out.println("lock not open");
                     }
                 }
@@ -208,11 +213,15 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject jsonResponse = new JSONObject(response);
                     System.out.println("response : "+ jsonResponse);
                     int Messagecode = Integer.parseInt(jsonResponse.optString("MessageCode"));
+                    TextView resultText = (TextView)findViewById(R.id.resultTextView);
                     if(Messagecode==200){
-                        //do open lock here
+                        String topic = "SmartLock";
+                        String payload = "UNLOCK";
+                        MQTTUtils.pub(topic, payload);
+                        resultText.setText("The door is now unlocked.");
                         System.out.println("send 0");
                     }else{
-                        //failed
+                        resultText.setText("You have no access");
                         System.out.println("lock not open");
                     }
                 }

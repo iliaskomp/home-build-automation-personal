@@ -1,0 +1,12 @@
+- Arduino IDE, File>Examples>PubSubClient>mqtt_esp8266 
+
+- I had Atom already installed so I installed the PlatformIO IDE plugin.
+
+- PROBLEM: No pio terminal command
+  SOLUTION: https://github.com/platformio/platformio-atom-ide/issues/47
+
+- After that on Atom Console, pio lib search PubSubClient (has number 89)
+  then pio lib install 89
+
+- Then click Upload
+ 

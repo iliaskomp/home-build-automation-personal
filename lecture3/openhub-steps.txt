@@ -31,3 +31,15 @@ http://blog.initialstate.com/raspberry-pi-pressing-buttons-light-leds/
 PROBLEM: doesn't change values with gpio command when pressing
 SOLUTION: changed button gpio and now it randomly works
 
+- TIMER
+
+https://github.com/openhab/openhab/wiki/Rules#time-based-triggers
+
+https://community.openhab.org/t/turn-on-light-based-on-time-of-day/5288
+
+https://github.com/openhab/openhab/wiki/Samples-Rules#create-a-timer-that-pauses-the-execution-of-the-rule
+
+Using cron for timer.
+Question: Server or Client time for cron?
+
+PROBLEM: LED not lighting up

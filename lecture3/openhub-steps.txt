@@ -31,7 +31,7 @@ http://blog.initialstate.com/raspberry-pi-pressing-buttons-light-leds/
 PROBLEM: doesn't change values with gpio command when pressing
 SOLUTION: changed button gpio and now it randomly works
 
-- TIMER
+- TIMER/ALARM
 
 https://github.com/openhab/openhab/wiki/Rules#time-based-triggers
 
@@ -43,3 +43,7 @@ Using cron for timer.
 Question: Server or Client time for cron?
 
 PROBLEM: LED not lighting up
+
+For timer: 
+PROBLEM: Used above links but did not work
+SOLUTION: I forgot to add item so I can control it (openhab console helped diagnose!)

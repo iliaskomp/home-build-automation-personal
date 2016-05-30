@@ -1,6 +1,6 @@
 Connected lamps to network/power supply.
 
-Lampstealer links
+- Lampstealer links
 
 https://nohats.ca/wordpress/blog/2013/05/26/philips-hue-alternative-for-lamp-stealer/
 
@@ -29,7 +29,14 @@ SOLUTION: Need to copy the binding jar file to addons
 
 PROBLEM: error:openHAB not authorized to access Hue bridge
 Maybe install openhab 1.8.3?
-SOLUTION: on problem and solution page on google drive
 
-- Trying Openhab 2
-too many problems
+https://github.com/openhab/openhab/wiki/Hue-Binding
+to connect the Hue to openhab but it didn't work since philips last month updated their
+firmware of the bridges to be more secure. details of the update can be found here:
+http://www2.meethue.com/en-us/support/firmware-update/
+
+SOLUTION: google docs a colleague found the solution
+http://www.developers.meethue.com/documentation/getting-started
+
+- Tried Openhab 2
+too many problems on raspberry pi with dependencies

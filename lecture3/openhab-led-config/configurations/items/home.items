@@ -1,0 +1,11 @@
+// Raspberry Pi //
+
+Group:Switch:OR(OPEN,CLOSED) LEDS
+
+Switch LED(LEDS) {gpio="pin:18"}
+Switch LED2(LEDS) {gpio="pin:17"}
+
+Switch TimerLED
+
+Contact button1 "Simple Push Button" (Buttons) { gpio="pin:22 debounce:10 active
+low:yes"  }

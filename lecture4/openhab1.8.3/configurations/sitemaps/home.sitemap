@@ -1,0 +1,30 @@
+sitemap home label="Home"
+{
+  Frame label="Raspberry Pi GPIO"
+  {
+    Switch item=LED  label="Led 1"
+    Switch item=LED2 label="Led 2"
+    Switch item=LEDS label="Both Leds"    
+  	Switch item=TimerLED label="Led Timer for 2 seconds"
+  }
+  
+  Frame label="Hue Lamps" {
+  	Switch item=Lamp1
+  	Switch item=Lamp2
+  	Switch item=Lamps
+  	Colorpicker item=Lamp1_Color visibility=[Lamp1==ON]
+  	Slider item=Lamp2_Bright     visibility=[Lamp2==ON]
+  	Slider item=Lamp2_Temp       visibility=[Lamp2==ON]
+  }
+  
+//  Frame label="Timer for Lamps" {
+//     	Setpoint item=hours minValue=0 maxValue=23 step=1
+//   	Setpoint item=minutes minValue=0 maxValue=59 step=1
+//   	Setpoint item=seconds minValue=0 maxValue=59 step=1
+//  }
+  
+  //Frame label=BUTTON {
+   // Switch item=Button
+  //}
+
+}

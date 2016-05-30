@@ -1,0 +1,59 @@
+import org.openhab.core.library.types.*
+import org.openhab.core.persistence.*
+import org.openhab.model.script.actions.*
+import org.java.math.*
+import org.joda.time.*
+
+var Timer timer
+
+rule "lamp timer"
+when
+	Item Lamp1 changed to ON
+then
+	timer = createTimer(now.plusSeconds(3)) [|
+                Lamp1.sendCommand(OFF)
+                timer = null
+            ]
+end
+
+
+
+
+
+rule "led alarm clock"
+when
+	Time cron "45 36 8  * * ?"
+then
+	LED.sendCommand(ON)
+	LED2.sendCommand(ON)
+end
+
+// Second Implementation
+rule "led timer"
+when
+	Item LED changed to ON
+then
+	timer = createTimer(now.plusSeconds(3)) [|
+                LED.sendCommand(OFF)
+                timer = null
+            ]
+end
+// First Implementation
+
+//rule "led timer"
+//when
+//		Item TimerLED changed
+//then
+//			LED.sendCommand(ON)
+//			Thread::sleep(2000)	
+//			LED.sendCommand(OFF)
+//end
+
+
+
+
+
+
+
+
+

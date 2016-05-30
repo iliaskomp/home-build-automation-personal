@@ -1,0 +1,35 @@
+Connected lamps to network/power supply.
+
+Lampstealer links
+
+https://nohats.ca/wordpress/blog/2013/05/26/philips-hue-alternative-for-lamp-stealer/
+
+PROBLEM: Cannot see bridge on the network
+SOLUTION: Reset bridge
+
+PROBLEM: Lampstealer doesn't work
+SOLUTION: telnet ip 30000 and press [Link,Touchlink]
+
+PROBLEM: Can control lamp of other group, not the second lamp of our own
+SOLUTION: Manually add lamp barcode
+
+Barcodes
+White: 8BEBDB
+Color 1: 8F4921
+Color 2: BAAE38
+
+- Integration with Openhab
+
+https://github.com/openhab/openhab/wiki/Hue-Binding
+https://github.com/openhab/openhab/wiki/Bindings
+https://github.com/openhab/openhab/wiki/Configuring-the-openHAB-runtime
+
+PROBLEM: No message on openhab console about pairing bridge
+SOLUTION: Need to copy the binding jar file to addons
+
+PROBLEM: error:openHAB not authorized to access Hue bridge
+Maybe install openhab 1.8.3?
+SOLUTION: on problem and solution page on google drive
+
+- Trying Openhab 2
+too many problems

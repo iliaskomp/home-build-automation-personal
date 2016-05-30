@@ -1,0 +1,142 @@
+=================================Introduction============================
+- introducting moderator, technician, teams
+- simpsons smart house video part 1
+  no housework, voice recognition, select voice of system.
+  system makes automated meals, automated cleaning of table
+  
+Statements
+Pro 1:  convenience remote control, video equipment, security devices, blinds, lights
+        centralized: voice command or smartphone, 
+        enhanced security/safety: instant feedback on your phone
+        cost - energy efficient
+        line: automation is awesome, showing off to your neighbour
+
+Pro 2:  convenience: automatically or centralized from your phone
+        cost: much cheaper nowadays
+        enhanced security: lock door automatically, monitoring
+        line: Security and Comfort
+
+- simpsons smart house video part 2
+auto massage/bath BUT
+creepy robot, too invasive on privacy, 
+if too intelligent automation system can take control of system 
+
+Statements:
+Con 1:  technology not mature to be safely used
+        biggest concern: security/privacy - if hackers do it with email, much more dangerous controlling home
+	privacy issues from government
+	costs: higher, initial hardward expensive, upgrades
+	split of market: many vendors, no big company that offers solution for every problem, have to depend on multiple vendors
+	line: Big concerns about security and privacy
+
+Con 2:  costs, really expensive so people not interested, maintanance expensive
+	line: Automation too expensive for people
+
+
+
+===============================1. Comfort===============================
+- Is it easier to control the light with your smartphone in your bedroom while you are in the bedroom? 
+Pro: convenient, controlling lights with smartphone.
+     not necessarily using smartphone, but multiple entry points are good
+Con: bedroom almost always have a light switch, no reason too 
+     coffee already need people to put the beans, so not that automated
+Pro: Some espresso coffee machines automated, no need by hand
+Con: Costs too high
+
+Question: Best option for home remote? 
+Pro: Both options should be available, manual and remote.
+
+Question: If the coffee machine is already automated, why do you need the remote press?
+Pro: you win some time, people might not have time in the morning going to work
+Con: Can go to the bathroom in the morning while coffee
+Con: real technical problems/bugs: some times automation can cause damage
+Pro: can happen even if no automation
+Con: but automation adds more possible problems
+Pro: always have a failsafe, e.g. open lock with smartphone or key
+Con: no difference between using key or smartphone in front of door
+Pro: pressing button first step, next step door unlocks automatically or lights switch automatically
+Con: Too insecure if door opens automatically, casual people won't need many features, same with pc
+	
+Question: killer "scenarios" for home automation
+Pro: Cool, get into home > lights open automatically. It's enabling new possibilities.
+
+
+===============================2. Costs===============================
+Con: If manually buy parts and diy = 2.3k, for companies more expensive 5-15k
+     Saving costs unimportant, not much difference.
+     Equipment about maintenance also expensive, lamp vs smart lamp
+     Automation will never make up for the cost
+Pro: Installation expensive but only once. 
+     Installation is easy nowadays, casual people can do it with manuals.
+     Automation will get even cheaper in near future.
+Con: Initial costs high, but installation not the only cost. 
+     Like PC/Smartphone, need upgrades often, much higher cost.
+     Support costs also high.
+Pro: Automation more like TV, you don't need to upgrade it often
+Con: Dependent on vendor. Can hold you "hostage"
+Pro: Can do it on your own with open source.
+Con: If you do it on your own, no centralization/integration, just separate entities.
+     Too hard for casual people to do it on their own.
+Pro: If there was standard it would be really easy, e.g. wifi
+Con: But there is no standard.
+
+3. Software
+
+Question: What if automation fails?
+Pro: always have a backup, not trusting power supply, e.g. carrying key as fail safe.
+Con: not trusting your own system, so you always carry key
+
+===============================3. Software===============================
+Con: One company: monopoly, too expensive
+     Multiple companies: no communication between them, no standard 
+Pro: Depends on the product.
+     Monopoly not good, you can choose multiple companies or open source.
+Con: If you get a company, means not tech savvy, so you will also need to pay for support/updates.
+Pro: Monthly subscription instead of update costs. Save energy.
+Con: Not much impact if you save some energy on minor devices
+Pro: Automated heating saves a lot of money.
+Con: Reheating the house is more expensive than average temperature.
+
+
+Question: Where should the logic of automation be. house or cloud...
+Pro: Probably in the home.
+Con: Insecure if in home.
+
+Question: Energy efficient also about environmental aspects?
+Con: Impact is the same, you save from energy you spend
+
+Question: Can't you save much more energy with good insulation instead of automation?
+Pro: Both can be good.
+Con: Also costs for insulation? Too expensive.
+
+===============================4. Interfaces===============================
+Pro: Standard protocols for wireless and low power.
+     No need for cables, wireless.
+     If standard exists, it would be really easy.
+
+
+===============================5. Security===============================
+Con: Leading automation security company found 3 huge security holes on open source projects,
+     if bug was taken advantage, hackers could disable alarm system and unlock doors when people out of home
+Pro: If someone breaks into your house, they can copy key.
+Pro: More secure if locally.
+Con: If security leak on email, people are upset. For home is too dangerous, that's the limit.
+Con: If stored locally, easy to hack.
+Pro: Need to have some standards about security, security guidelines, encryption
+Con: Irrelevant since always bugs in software.
+Con: News about samsung: even Samsung can't secure home automation systems
+Pro: same for every software
+Con: Home automation not same as software. Home is much more precious. Automation opens more security holes.
+
+
+Question: Isn't diy solution more secure than no automation?
+Con: Agree. Hackers target widespread standard solutions. But maybe less secure if someone actually looks into the system.
+Con: Takes a lot of work to diy.
+
+
+===============================6. Being supervised/Privacy===============================
+
+Pro: Automation needs to know about your behavious so it can adjust.
+Con: Nobody would want someone/something being in their home. 
+     If on automation on cloud, you don't know who violates your privacy
+Pro: Depends on what system you want. Can be simple system based on your house or AI machine learning system on the cloud

@@ -41,9 +41,12 @@ https://github.com/openhab/openhab/wiki/Samples-Rules#create-a-timer-that-pauses
 
 Using cron for timer.
 Question: Server or Client time for cron?
+Answer: Server time.
 
 PROBLEM: LED not lighting up
+SOLUTION: tested next day, randomly started working
 
 For timer: 
 PROBLEM: Used above links but did not work
 SOLUTION: I forgot to add item so I can control it (openhab console helped diagnose!)
+

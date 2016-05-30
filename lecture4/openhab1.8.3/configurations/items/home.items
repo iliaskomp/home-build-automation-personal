@@ -1,0 +1,23 @@
+// Raspberry Pi //
+
+Group:Switch:OR(OPEN,CLOSED) LEDS
+Group:Switch:OR(OPEN,CLOSED) Lamps
+
+Switch LED(LEDS)  {gpio="pin:18"}
+Switch LED2(LEDS) {gpio="pin:17"}
+
+Switch TimerLED
+
+Switch Lamp1(Lamps) {hue="1"} // color
+Switch Lamp2(Lamps) {hue="2"} // white
+Color  Lamp1_Color  {hue="1"}
+Dimmer Lamp2_Bright {hue="2;brightness;30"}
+Dimmer Lamp2_Temp   {hue="2;colorTemperature;30"}
+
+//String time "%s"
+//Number hours "Hours [%d]" <clock>
+//Number minutes "Minutes"	
+//Number seconds "Seconds"	
+	
+
+//Contact button1 "Simple Push Button" (Buttons) { gpio="pin:22 debounce:10 active low:yes"  }

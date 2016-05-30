@@ -1,0 +1,11 @@
+enOcean connector with raspberry, magnetic sensors and temperature sensor
+
+Tutorial:
+https://www.element14.com/community/community/design-challenges/forget-me-not/blog/2014/08/10/ip-post-5-tutorial-for-interfacing-openhab-with-enocean-pi
+
+-disable tty
+- include enOcean binding on openhab
+- openhab config file set right tty 
+- start openhab  first in debug mode to get the id
+- set rule for the switch
+

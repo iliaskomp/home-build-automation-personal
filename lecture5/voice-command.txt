@@ -1,0 +1,12 @@
+PROBLEM
+Voice command not working, not even logging message
+SOLUTION
+added all imports necessary and now it works
+
+PROBLEM
+voice recognition is pretty bad, 
+only clear words like "stop", "quiet" easy to recognize
+
+SOLUTION
+on the rules, include variations of the words that are recognized
+e.g. for pause include boss, bose etc.

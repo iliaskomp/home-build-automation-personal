@@ -1,0 +1,22 @@
+xbmc bindings doc: https://github.com/openhab/openhab/wiki/XBMC-Binding
+
+PROBLEM: Hue kodi plugin not working, always error
+tried other version of kodi plugin, other version of kodi, another laptop,
+SOLUTION: Needed to change the user on the kodi plugin config
+
+
+PROBLEM: Cannot connect openhab with kodi
+- opened connections from kodi settings, still not working
+- example used: https://daynet236.wordpress.com/2015/09/02/openhab-kodi/
+
+SOLUTION: Needed to fix kodi credentials according to
+https://community.openhab.org/t/xbmc-binding-and-openelec/2638/6
+
+PROBLEM: Volume slider not working like brightness on lamp
+SOLUTION: Need to press continually for it to work
+
+--------Changes for integration with the other projects--------------------------
+Conf file
+-need to change ip for hue bridge, also on kodi
+-security-option=EXTERNAL
+-xbmc settings
